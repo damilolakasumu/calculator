@@ -6,7 +6,7 @@ import { CalculatorContainer } from './containers/CalculatorContainer';
 import { evaluateResult } from './reducers/reducer';
 
 
-// creates the store on reducer evaluateResult()
+
 const store = createStore(evaluateResult);
 
 const renderCalculator = () => {
